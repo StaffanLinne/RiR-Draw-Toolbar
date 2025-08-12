@@ -1,5 +1,7 @@
 # RiR-Draw-Toolbar
 Toolbar focused on creating and checking drawings
+For instructions of necessary installations see: [White Work](https://work.white.se/rhino-inside-revit/)
+
 
 ## List of Scripts with short description
 
