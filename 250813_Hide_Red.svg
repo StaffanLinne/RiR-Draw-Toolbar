@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #d35746;
+      }
+
+      .st0, .st1, .st2 {
+        stroke: #058a9e;
+        stroke-miterlimit: 10;
+        stroke-width: 16px;
+      }
+
+      .st1, .st3 {
+        display: none;
+      }
+
+      .st1, .st2 {
+        fill: #fff;
+        font-family: AkzidenzGroteskStd-Bold, 'Akzidenz-Grotesk Std';
+        font-size: 320px;
+        font-weight: 700;
+      }
+
+      .st3 {
+        fill: #687a7b;
+      }
+    </style>
+  </defs>
+  <rect class="st3" y="0" width="512" height="512"/>
+  <path class="st0" d="M43.92,235.93c10.11-108.23,101.2-192.95,212.08-192.95,117.65,0,213.02,95.37,213.02,213.02s-95.37,213.02-213.02,213.02S42.98,373.65,42.98,256c0-6.77.32-13.46.93-20.07"/>
+  <text class="st2" transform="translate(134.26 362.42)"><tspan x="0" y="0">H</tspan></text>
+  <text/>
+  <text class="st1" transform="translate(139.87 365.02)"><tspan x="0" y="0">R</tspan></text>
+</svg>
