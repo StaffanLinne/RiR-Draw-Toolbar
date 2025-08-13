@@ -22,5 +22,5 @@ or run the script with
 **21_Filled Reg_Ele.gh** - Creates filled region covering selected elements
 
 # Commenting
-**30_Hide_Red** - Hides all red text, lines or dimensions on a view or all views on a sheet
+**30_Hide_Red** - Hides all red text, lines or dimensions on a view or all views on a sheet  
 **31_Show_Red.gh** - Show all red text, lines or dimensions on a view or all views on a sheet
