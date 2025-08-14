@@ -29,8 +29,45 @@ or run the script with Grasshopper Player
 
 
 
-## Documentation
-**20_QFilter**
+# Script Documentation
+
+
+#11_Ro_Wall_Off Axis - Rotates selected walls if they are slightly off axis
+
+**Intent:**  
+Rotate selected walls so they align with grids visible in view
+
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:**
+The script is best runned from the Revit Toolbar
+
+1. Select an object (or several) in the Revit viewport  
+2. Run script  
+3. The script will rotate walls according to the gridline that has the most similar direction to the wall line direction  
+
+**Limitations/Known issues** 
+Long walls with hosted objects might delete some of these objects. Reason unknown. Might be resolved in the future.
+
+**Linked scripts**
+10_Rev_Off Axis_Wall can be used to reveal and select walls off axis 
+
+**Contact:** 
+Staffan Linné, staffan.linne@white.se
+
+
+
+
+
+
+
+
+
+
+# 20_QFilter
 
 **Intent:**  
 To create a filter based on the Category, Type (Type Name), Family and Type Mark of an model object. 
