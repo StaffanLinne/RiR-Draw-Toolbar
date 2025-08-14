@@ -8,7 +8,7 @@ or run the script with Grasshopper Player
 ## List of Scripts with short description
 
 ### Dimensioning
-**00_Del_Dim** - Deletes dimensions and detail lines drawn by scripts below  
+**00_Del_RiR** - Deletes dimensions and detail lines drawn by scripts below  
 **01_Dim_Rooms** - Creates dimensions for rooms, detail lines are added to draw the dimensions between  
 **02_Dim_Wall_Grid** - Creates dimensions from walls to nearest perpendicular grid  
 **03_Dim_Cat_Center** - Creates dimensions for all objects of the selected object's category from center plane to closest wall  
