@@ -30,17 +30,17 @@ or run the script with Grasshopper Player
 
 
 ## Documentation
-**20_QFilter
+**20_QFilter**
 
-**Intent:
+**Intent:**  
 To create a filter based on the Category, Type (Type Name), Family and Type Mark of an model object. 
 
-**Dependencies:
+**Dependencies:**  
 Rhino  
 Revit  
 Rhino Inside Revit  
 
-**Instructions:
+**Instructions:*  
 The script is best runned from the Revit Toolbar
 
 1. Select an object (or several) in the Revit viewport  
@@ -48,9 +48,9 @@ The script is best runned from the Revit Toolbar
 3. The script will create a filter and apply a random colour to the filter  
 4. If you like to keep the filter, change the name, otherwise it will be updated next time you use Qfilter
 
-**Limitations/Known issues
+**Limitations/Known issues** 
 Has not been tested for linked models  
 Does not work for certain object categories, for example views (section, elevations etc.) and annotation objects
 
-**Contact:
+**Contact:** 
 Staffan Linné, staffan.linne@white.se
