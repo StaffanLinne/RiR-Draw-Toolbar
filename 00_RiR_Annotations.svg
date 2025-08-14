@@ -4,71 +4,47 @@
   <defs>
     <style>
       .st0 {
-        stroke-width: 25px;
-      }
-
-      .st0, .st1, .st2, .st3, .st4 {
-        stroke-miterlimit: 10;
-      }
-
-      .st0, .st1, .st2, .st3, .st4, .st5 {
-        fill: none;
-      }
-
-      .st0, .st2, .st3 {
-        stroke: #ee4f9c;
-      }
-
-      .st0, .st2, .st3, .st6 {
-        display: none;
-      }
-
-      .st1 {
         stroke: #000;
       }
 
-      .st2 {
-        stroke-width: 22px;
+      .st0, .st1 {
+        stroke-miterlimit: 10;
       }
 
-      .st3 {
-        stroke-width: 24px;
+      .st0, .st1, .st2 {
+        fill: none;
       }
 
-      .st4 {
+      .st1 {
         stroke: #ed5160;
         stroke-width: 100px;
       }
 
-      .st7 {
+      .st3 {
         fill: #008a9e;
       }
 
-      .st6 {
+      .st4 {
+        display: none;
         fill: #687a7b;
       }
     </style>
   </defs>
-  <rect class="st6" y="0" width="512" height="512"/>
+  <rect class="st4" y="0" width="512" height="512"/>
   <g>
-    <rect class="st7" x="51.2" y="51.2" width="409.6" height="409.6"/>
+    <rect class="st3" x="51.2" y="51.2" width="409.6" height="409.6"/>
     <g>
-      <polyline class="st7" points="460.8 445.8 460.8 460.8 445.8 460.8"/>
-      <line class="st5" x1="416.6" y1="460.8" x2="80.8" y2="460.8"/>
-      <polyline class="st7" points="66.2 460.8 51.2 460.8 51.2 445.8"/>
-      <line class="st5" x1="51.2" y1="416.6" x2="51.2" y2="80.8"/>
-      <polyline class="st7" points="51.2 66.2 51.2 51.2 66.2 51.2"/>
-      <line class="st5" x1="95.4" y1="51.2" x2="431.2" y2="51.2"/>
-      <polyline class="st7" points="445.8 51.2 460.8 51.2 460.8 66.2"/>
-      <line class="st5" x1="460.8" y1="95.4" x2="460.8" y2="431.2"/>
+      <polyline class="st3" points="460.8 445.8 460.8 460.8 445.8 460.8"/>
+      <line class="st2" x1="416.6" y1="460.8" x2="80.8" y2="460.8"/>
+      <polyline class="st3" points="66.2 460.8 51.2 460.8 51.2 445.8"/>
+      <line class="st2" x1="51.2" y1="416.6" x2="51.2" y2="80.8"/>
+      <polyline class="st3" points="51.2 66.2 51.2 51.2 66.2 51.2"/>
+      <line class="st2" x1="95.4" y1="51.2" x2="431.2" y2="51.2"/>
+      <polyline class="st3" points="445.8 51.2 460.8 51.2 460.8 66.2"/>
+      <line class="st2" x1="460.8" y1="95.4" x2="460.8" y2="431.2"/>
     </g>
   </g>
-  <line class="st1" x1="61.44" y1="256" x2="61.44" y2="256"/>
-  <line class="st2" x1="467.85" y1="193.34" x2="348.76" y2="312.43"/>
-  <line class="st2" x1="168.7" y1="193.34" x2="49.62" y2="312.43"/>
-  <line class="st3" x1="474.73" y1="252.88" x2="46.6" y2="252.88"/>
-  <line class="st0" x1="109.16" y1="328.15" x2="109.16" y2="177.62"/>
-  <line class="st0" x1="408.31" y1="328.15" x2="408.31" y2="177.62"/>
-  <line class="st4" x1="51.2" y1="51.2" x2="460.8" y2="460.8"/>
-  <line class="st4" x1="460.8" y1="51.2" x2="51.2" y2="460.8"/>
+  <line class="st0" x1="61.44" y1="256" x2="61.44" y2="256"/>
+  <line class="st1" x1="51.2" y1="51.2" x2="460.8" y2="460.8"/>
+  <line class="st1" x1="460.8" y1="51.2" x2="51.2" y2="460.8"/>
 </svg>
