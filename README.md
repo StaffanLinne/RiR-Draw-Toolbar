@@ -32,7 +32,7 @@ or run the script with Grasshopper Player
 # Script Documentation
 
 
-#11_Ro_Wall_Off Axis - Rotates selected walls if they are slightly off axis
+## 11_Ro_Wall_Off Axis
 
 **Intent:**  
 Rotate selected walls so they align with grids visible in view
