@@ -40,7 +40,7 @@ Rhino
 Revit  
 Rhino Inside Revit  
 
-**Instructions:*  
+**Instructions:**
 The script is best runned from the Revit Toolbar
 
 1. Select an object (or several) in the Revit viewport  
