@@ -67,7 +67,7 @@ Staffan Linné, staffan.linne@white.se
 
 
 
-# 20_QFilter
+## 20_QFilter
 
 **Intent:**  
 To create a filter based on the Category, Type (Type Name), Family and Type Mark of an model object. 
