@@ -25,3 +25,32 @@ or run the script with Grasshopper Player
 ### Commenting
 **30_Hide_Red** - Hides all red text, lines or dimensions on a view or all views on a sheet  
 **31_Show_Red.gh** - Show all red text, lines or dimensions on a view or all views on a sheet
+
+
+
+
+## Documentation
+**20_QFilter
+
+**Intent:
+To create a filter based on the Category, Type (Type Name), Family and Type Mark of an model object. 
+
+**Dependencies:
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:
+The script is best runned from the Revit Toolbar
+
+1. Select an object (or several) in the Revit viewport  
+2. Run script  
+3. The script will create a filter and apply a random colour to the filter  
+4. If you like to keep the filter, change the name, otherwise it will be updated next time you use Qfilter
+
+**Limitations/Known issues
+Has not been tested for linked models  
+Does not work for certain object categories, for example views (section, elevations etc.) and annotation objects
+
+**Contact:
+Staffan Linné, staffan.linne@white.se
