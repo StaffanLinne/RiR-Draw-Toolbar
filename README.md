@@ -32,6 +32,38 @@ or run the script with Grasshopper Player
 
 # Script Documentation
 
+## 10_Rev_Off Axis_Wall
+
+**Intent:**  
+To visualize and select walls of axis
+
+**Input:**  
+An active viewport with visible gridlines
+
+**Output:**  
+Filled regions showing which walls that are off axis, These walls are also selected in the viewport.
+
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:**
+The script is best runned from the Revit Toolbar
+1. While in a plan view with visible gridlines, click the script icon.
+2. If walls are selected by the script, you might use **11_Ro_Wall_Off Axis** to rotate the walls.   
+The script will select walls that are >1 degree of the direction of a gridline.
+A new type of filled region is created which is deletable with **00_Del_RiR**
+
+**Limitations/Known issues** 
+If your model lacks filled regions or if theese are hidden in ypor active view they might not be visible.
+
+**Linked scripts**
+**10_Rev_Off Axis_Wall** can be used to rotate selected walls. **00_Del_RiR** can be used to delete filled regions in view.
+
+**Contact:** 
+Staffan Linné, staffan.linne@white.se
+
 
 ## 11_Ro_Wall_Off Axis
 
