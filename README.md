@@ -79,16 +79,16 @@ Staffan Linné, staffan.linne@white.se
 **Intent:**  
 To create a filter based on the Category, Type (Type Name), Family and Type Mark of an model object. 
 
-**Dependencies:**  
-Rhino  
-Revit  
-Rhino Inside Revit  
-
 **Input:**  
 One or several selected model objects in the viewport
 
 **Output:**  
 A filter applied to the view or view template. To "save" the filter - rename it.
+
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
 
 **Instructions:**
 The script is best runned from the Revit Toolbar
