@@ -35,7 +35,7 @@ or run the script with Grasshopper Player
 ## 10_Rev_Off Axis_Wall
 
 **Intent:**  
-To visualize and select walls of axis
+To visualize and select walls with off axis direction
 
 **Input:**  
 An active viewport with visible gridlines
