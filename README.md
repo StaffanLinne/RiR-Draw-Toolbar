@@ -38,6 +38,12 @@ or run the script with Grasshopper Player
 **Intent:**  
 Rotate selected walls so they align with grids visible in view
 
+**Input:**  
+Views selected in the viewport.
+
+**Output:**  
+A rotation of the selected walls if they are off axis
+
 **Dependencies:**  
 Rhino  
 Revit  
@@ -77,6 +83,12 @@ To create a filter based on the Category, Type (Type Name), Family and Type Mark
 Rhino  
 Revit  
 Rhino Inside Revit  
+
+**Input:**  
+One or several selected model objects in the viewport
+
+**Output:**  
+A filter applied to the view or view template. To "save" the filter - rename it.
 
 **Instructions:**
 The script is best runned from the Revit Toolbar
