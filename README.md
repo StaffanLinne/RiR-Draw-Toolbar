@@ -100,12 +100,6 @@ Staffan Linné, staffan.linne@white.se
 
 
 
-
-
-
-
-
-
 ## 20_QFilter
 
 **Intent:**  
@@ -133,6 +127,43 @@ The script is best runned from the Revit Toolbar
 **Limitations/Known issues** 
 Has not been tested for linked models  
 Does not work for certain object categories, for example views (section, elevations etc.) and annotation objects
+
+**Linked scripts**
+More complicated filter and legend for theese can be created by another script, available upon request
+
+**Contact:** 
+Staffan Linné, staffan.linne@white.se
+
+
+
+## 21_Filled Reg_Ele.gh
+
+**Intent:**  
+A quick way to create filled regions based on selected elements geometry
+
+**Input:**  
+One or several selected model objects in the viewport
+
+**Output:**  
+Filled regions covering the selected objects
+
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:**
+The script is best runned from the Revit Toolbar
+
+1. Select an object (or several) in the Revit viewport  
+2. Run script  
+3. The script will create filled regions with the type named "Filled Region_RiR". 
+4. If you want to keep the region, change type, if you want do delete it use **00_Del_RiR**
+
+**Limitations/Known issues** 
+
+**Linked scripts**
+**00_Del_RiR**
 
 **Contact:** 
 Staffan Linné, staffan.linne@white.se
