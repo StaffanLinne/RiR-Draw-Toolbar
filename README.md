@@ -162,8 +162,8 @@ The script is best runned from the Revit Toolbar
 
 **Limitations/Known issues** 
 
-**Linked scripts**
-**00_Del_RiR**
+**Linked scripts**  
+**00_Del_RiR** can be used to delete filled regions in view.
 
 **Contact:** 
 Staffan Linné, staffan.linne@white.se
