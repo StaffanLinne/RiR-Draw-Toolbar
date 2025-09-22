@@ -125,7 +125,7 @@ The script is best runned from the Revit Toolbar
 4. If you like to keep the filter, change the name, otherwise it will be updated next time you use Qfilter
 
 **Limitations/Known issues** 
-Has not been tested for linked models  
+Has been tested for linked models and works ok. Some linked object may be too poor in information to work properly.   
 Does not work for certain object categories, for example views (section, elevations etc.) and annotation objects
 
 **Linked scripts**
