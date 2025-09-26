@@ -20,7 +20,7 @@ or run the script with Grasshopper Player
 
 ### Marking
 **20_Qfilter** - Creates a filter that catches selected objects  
-**20_Lfilter** - Creates a filter that tries to catch all objects in a selected linked file  
+**21_Lfilter** - Creates a filter that tries to catch all objects in a selected linked file  
 **22_Filled Reg_Ele.gh** - Creates filled region covering selected elements  
 **23_Iso_Sel_Cat.gh** - Creates and applies a view template that is a copy of the existing view template but with all categories exept of the selected objects hidden. Click again and the parent template is restored. 
 
