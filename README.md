@@ -19,8 +19,8 @@ or run the script with Grasshopper Player
 **11_Ro_Wall_Off Axis** - Rotates selected walls if they are slightly off axis
 
 ### Marking
-**20_Qfilter** - Creates a filter that catches selected objects  
-**21_Lfilter** - Creates a filter that tries to catch all objects in a selected linked file  
+**20_QFilter** - Creates a filter that catches selected objects  
+**21_LFilter** - Creates a filter that tries to catch all objects in a selected linked file  
 **22_Filled Reg_Ele.gh** - Creates filled region covering selected elements  
 **23_Iso_Sel_Cat.gh** - Creates and applies a view template that is a copy of the existing view template but with all categories exept of the selected objects hidden. Click again and the parent template is restored. 
 
@@ -134,6 +134,42 @@ More complicated filter and legend for theese can be created by another script, 
 
 **Contact:** 
 Staffan Linné, staffan.linne@white.se
+
+
+## 21_LFilter
+
+**Intent:**  
+To create a filter based on the Category, Type (Type Name), Family and Type Mark of all objects in a linked file. 
+
+**Input:**  
+A selected linked model or an selected object in a linked file
+
+**Output:**  
+A filter applied to the view or view template. Filter is named after the linked file.
+**Dependencies:**  
+Rhino  
+Revit  
+Rhino Inside Revit  
+
+**Instructions:**
+The script is best runned from the Revit Toolbar
+
+1. Select an object (or several) in the Revit viewport  
+2. Run script  
+3. The script will create a filter and apply a random colour to the filter  
+4. If you like to keep the filter, change the name, otherwise it will be updated next time you use Qfilter
+
+**Limitations/Known issues** 
+Some linked object may be too poor in information to work properly. Object may also be marked in other linked files or in the active document, depending on how much information that is avaible for the linked objects. Works for revit linkes created from IFC files also.   
+Does not work for certain object categories, for example views (section, elevations etc.) and annotation objects
+
+**Linked scripts**
+Qfilter (to just catch one or several linked objects)
+
+**Contact:** 
+Staffan Linné, staffan.linne@white.se
+
+
 
 
 
