@@ -13,6 +13,7 @@ or run the script with Grasshopper Player
 **02_Dim_Wall_Grid** - Creates dimensions from walls to nearest perpendicular grid  
 **03_Dim_Cat_Center** - Creates dimensions for all objects of the selected object's category from center plane to closest wall  
 **04_Dim_Cat_Side** - Creates dimensions for all objects of the selected object's category from side to closest wall  
+**05_Dim_Type_Side** - Creates dimensions for all objects of the selected object's type from sides to closest walls  
 
 ### Rotate Walls slightly off axis
 **10_Rev_Off Axis_Wall** - Shows walls in plan that are slightly off axis (smaller than 1 degree) from grid directions  
